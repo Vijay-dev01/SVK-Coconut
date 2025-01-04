@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/yellow-surface-with-coconuts-palm-leaves.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -309,9 +309,18 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* padding: 100px 0; */
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   color: #fff;
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/coconut/vecteezy_young-coconut-fruit-on-the-coconut-tree-fresh-green_17177502.JPG) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
