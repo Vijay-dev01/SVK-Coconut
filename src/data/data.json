@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "SVK Coconut Trader",
+    "paragraph": "Connecting Village Farms with Global Industries.."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At SVKCoconut Trader, we focus on bridging the gap between hardworking farmers in rural villages and industrial factories that value high-quality coconuts. Our mission is to ensure sustainable incomes for farmers while delivering premium products to our clients.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Direct sourcing from farms ensures freshness and authenticity.",
+      "Stringent quality control at every step of the supply chain.",
+      "Eco-friendly operations prioritizing sustainability and fair trade.",
+      "Reliable and timely delivery for industrial requirements."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+     " Commitment to community development by uplifting village economies.",
+      "Consistent quality assurance to meet industry standards.",
+      "Efficient logistics tailored to bulk deliveries.",
+      "Long-term partnerships with both farmers and factories."
     ]
   },
   "Gallery": [
@@ -152,9 +152,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Devagalli, Gaddige, karimudanahalli post, Hunsur taluk, Mysore dist, Karnataka, India",
+    "phone": "+91 9353456923",
+    "email": "vijay.developerhub.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
