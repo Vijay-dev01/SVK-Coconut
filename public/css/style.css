@@ -496,20 +496,20 @@ header .intro-text {
   color: #888;
 }
 /* Location */
-#Location {
+#location {
   padding: 100px 0;
 }
-#Location h4 {
+#location h4 {
   margin: 5px 0;
 }
-#Location .Location-img {
+#location .location-img {
   width: 240px;
 }
-#Location .thumbnail {
+#location .thumbnail {
   background: transparent;
   border: 0;
 }
-#Location .thumbnail .caption {
+#location .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }

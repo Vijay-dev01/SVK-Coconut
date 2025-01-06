@@ -2,7 +2,7 @@ import React from "react";
 
 export const Location = () => {
     return (
-        <div id="testimonials">
+        <div id="location">
             <div className="container">
                 <div className="section-title text-center">
                     <h2>Store Location</h2>
