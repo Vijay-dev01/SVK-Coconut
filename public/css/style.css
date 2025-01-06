@@ -495,6 +495,24 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+/* Location */
+#Location {
+  padding: 100px 0;
+}
+#Location h4 {
+  margin: 5px 0;
+}
+#Location .Location-img {
+  width: 240px;
+}
+#Location .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#Location .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;

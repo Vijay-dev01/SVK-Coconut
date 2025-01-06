@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            SVK Coconut
           </a>{" "}
         </div>
 
@@ -55,6 +55,11 @@ export const Navigation = (props) => {
             <li>
               <a href="#team" className="page-scroll">
                 Team
+              </a>
+            </li>
+            <li>
+              <a href="#Location" className="page-scroll">
+                Location
               </a>
             </li>
             <li>
