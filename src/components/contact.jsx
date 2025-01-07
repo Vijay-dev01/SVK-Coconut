@@ -1,37 +1,66 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    const { target } = e;
+    const { name, value } = target;
+
+    setForm({
+      ...form,
+      [name]: value,
+    });
   };
-  const clearState = () => setState({ ...initialState });
-  
-  
+
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+    setLoading(true);
+
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .send(
+        "service_l27trtp",
+        "template_740sjbz",
+        {
+          user_name: form.name,
+          to_name: "Vijay",
+          user_email: form.email,
+          to_email: "vijayajay3535@gmail.com",
+          user_subject: form.subject,
+          message: form.message,
+        },
+        "X_FO5tghyXehWlhBn"
+      )
       .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+        () => {
+          setLoading(false);
+          alert("Thank you. I will get back to you as soon as possible.");
+
+          setForm({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
         },
         (error) => {
-          console.log(error.text);
+          setLoading(false);
+          console.error(error);
+
+          alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
@@ -48,7 +77,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" ref={formRef} validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -59,6 +88,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={form.name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -73,8 +103,21 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={form.email}
                         onChange={handleChange}
                       />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        name="subject"
+                        value={form.subject}
+                        onChange={handleChange}
+                        placeholder="What's your Subject for Contact?"
+                        className="form-control" />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
@@ -87,13 +130,14 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={form.message}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  {loading ? "Sending..." : "Send Message"}
                 </button>
               </form>
             </div>
