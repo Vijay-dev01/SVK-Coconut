@@ -201,9 +201,9 @@ export const Contact = (props) => {
             <a href="https://vijayg-portfolio-web.netlify.app/" rel="nofollow">
               Vijay G
             </a>
-            . Thank you for visiting our website and supporting our journey. We
-            strive to innovate and bring meaningful solutions to the world.
           </p>
+          . Thank you for visiting our website and supporting our journey. We
+          strive to innovate and bring meaningful solutions to the world.
         </div>
       </div>
 
