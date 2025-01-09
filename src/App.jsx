@@ -12,7 +12,7 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import { Location } from "./components/location";
-import Canvas from "./canvas/Canvas";
+// import Canvas from "./canvas/Canvas";
 import LazyShow from "./LazyShow";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -38,47 +38,47 @@ const App = () => {
           </div>
         </div>
       </div>
-      <Canvas />
+      {/* <Canvas /> */}
       <LazyShow>
         <>
           <Features data={landingPageData.Features} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <About data={landingPageData.About} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Services data={landingPageData.Services} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Gallery data={landingPageData.Gallery} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Testimonials data={landingPageData.Testimonials} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Team data={landingPageData.Team} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
         <>
           <Location data={landingPageData.Location} />
-          <Canvas />
+          {/* <Canvas /> */}
         </>
       </LazyShow>
       <LazyShow>
