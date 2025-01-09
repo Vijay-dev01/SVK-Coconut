@@ -67,34 +67,44 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "name": "Farmer Partnerships",
+      "text": "We collaborate with local farmers to source the highest quality brown coconuts, ensuring fair trade practices and sustainable farming methods."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Efficient Coconut Collection",
+      "text": "Our dedicated logistics team ensures the timely and efficient collection of coconuts directly from the farms to our processing facilities."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-archive",
+      "name": "Processing & Manufacturing",
+      "text": "Once collected, our coconuts are sent to state-of-the-art factories where they are processed into premium coconut products such as coconut oil, coconut water, and more."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-check-circle",
+      "name": "Logistics & Distribution",
+      "text": "We handle the distribution of our processed coconut products, ensuring timely delivery to industries and retailers globally."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-leaf",
+      "name": "Sustainable Practices",
+      "text": "We prioritize sustainability at every step of the process—from sourcing coconuts to processing, packaging, and shipping—reducing waste and promoting eco-friendly methods."
+    },
+    {
+      "icon": "fa fa-clipboard",
+      "name": "Quality Assurance",
+      "text": "Our team conducts stringent quality checks throughout the supply chain to ensure that only the finest coconuts are processed and delivered to our clients."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Market Research & Strategy",
+      "text": "We continuously analyze market trends to optimize our sourcing and processing strategies, ensuring we meet the growing demand for coconut products."
+    },
+    {
+      "icon": "fa fa-globe",
+      "name": "Business Partnerships",
+      "text": "We build long-term relationships with industries, creating mutual growth through the supply of high-quality coconut products for use in various sectors, including food and beauty."
     }
   ],
   "Testimonials": [
@@ -161,24 +171,44 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-users",
+      "title": "Farmer Partnerships",
+      "text": "We work closely with local farmers to source the finest brown coconuts, ensuring fair trade and sustainable practices throughout our supply chain."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-truck",
+      "title": "Efficient Coconut Collection",
+      "text": "Our dedicated team collects mature brown coconuts from farmers, ensuring timely and efficient transportation to our processing facilities."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-building",
+      "title": "State-of-the-Art Processing",
+      "text": "Once collected, our coconuts are delivered to modern factories, where they undergo high-quality processing to create premium coconut products."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-leaf",
+      "title": "Sustainability at Every Step",
+      "text": "From sourcing to processing, we prioritize eco-friendly practices, ensuring minimal waste and maximizing the use of every part of the coconut."
+    },
+    {
+      "icon": "fa fa-clipboard",
+      "title": "Quality Assurance",
+      "text": "Rigorous quality checks are performed at every stage of the supply chain, ensuring that only the best coconuts reach the factory for production."
+    },
+    {
+      "icon": "fa fa-ambulance",
+      "title": "Logistics and Distribution",
+      "text": "We ensure smooth logistics, with a fleet of vehicles that transport coconuts from farms to factories, and finished products to various industries."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "title": "Industry Supply Chain",
+      "text": "Our coconuts supply key industries like coconut water, coconut oil, and other food and beauty products, driving a robust industrial ecosystem."
+    },
+    {
+      "icon": "fa fa-heart",
+      "title": "Supporting Local Communities",
+      "text": "By partnering with local farmers and supporting sustainable practices, we help uplift rural communities and contribute to their economic growth."
     }
   ]
 }
