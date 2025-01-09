@@ -51,14 +51,14 @@ p.intro {
 }
 
 a {
-  color: #f5821f;
+  color: #FFA500;
   font-weight: 400;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #f5821f;
+  color: #FFA500;
 }
 
 ul,
@@ -99,12 +99,12 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #f5821f;
+  color: #FFA500;
   text-transform: uppercase;
 }
 
 #menu.navbar-default .navbar-nav>li>a:hover {
-  color: #f5821f;
+  color: #FFA500;
   /* Add hover effect for links */
 }
 
@@ -126,7 +126,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFA500 0%, #FF6347 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -150,7 +150,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #FFA500 0%, #FF6347 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -162,11 +162,11 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #f5821f;
+  border-color: #FFA500;
 }
 
 .navbar-default .navbar-toggle:hover>.icon-bar {
-  background-color: #f5821f;
+  background-color: #FFA500;
 }
 
 /* Optional: Add a semi-transparent background when scrolling */
@@ -190,7 +190,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #f5821f 100%);
+  background: linear-gradient(to right, #FF6347 0%, #FFA500 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -206,8 +206,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #f5821f 100%);
+  background-color: #FF6347;
+  background-image: linear-gradient(to right, #FF6347 0%, #FFA500 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -225,7 +225,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #f5821f;
+  background-color: #FFA500;
 }
 
 .btn:active,
@@ -313,7 +313,7 @@ a:focus,
 
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #FF6347;
 }
 
 .intro p {
@@ -345,7 +345,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFA500 0%, #FF6347 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -368,7 +368,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #f5821f 100%);
+  background: linear-gradient(to right, #FF6347 0%, #FFA500 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -385,7 +385,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #FF6347;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -407,7 +407,7 @@ header .intro-text {
 /* Services Section */
 #services {
   /* padding: 100px 0; */
-  /* background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%); */
+  /* background: linear-gradient(to right, #FFA500 0%, #FF6347 100%); */
   color: #fff;
   display: table;
   width: 100%;
@@ -445,7 +445,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFA500 0%, #FF6347 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -599,6 +599,11 @@ header .intro-text {
 /* Location */
 #location {
   padding: 100px 0;
+  background: url(../img/map-travel-adventure-graphic-pattern-banner.jpg) center center no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #location h4 {
@@ -622,7 +627,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #f5821f 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #FFA500 0%, #FF6347 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -765,7 +770,7 @@ label {
 }
 
 #contact .social i.fa:hover {
-  color: #f5821f;
+  color: #FFA500;
   background: #fff;
 }
 
@@ -781,11 +786,11 @@ label {
 }
 
 #footer a {
-  color: #f5821f;
+  color: #FFA500;
 }
 
 #footer a:hover {
-  border-bottom: 2px solid #f5821f;
+  border-bottom: 2px solid #FFA500;
 }
 
 @media (max-width: 768px) {
