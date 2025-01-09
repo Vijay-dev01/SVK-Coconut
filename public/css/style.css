@@ -418,6 +418,7 @@ header .intro-text {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-attachment: fixed;
 }
 
 #services .service-desc {
@@ -462,6 +463,12 @@ header .intro-text {
 
 #services .service-desc {
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  #services {
+    background-attachment: scroll;
+  }
 }
 
 /* Portfolio Section */
