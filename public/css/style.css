@@ -426,8 +426,7 @@ header .intro-text {
 }
 
 #services h2 {
-  /* color: #fff; */
-  color: #000
+  color: #fff;
 }
 
 #services .section-title h2::after {
@@ -455,13 +454,11 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  /* color: #fff; */
-  color: #000
+  color: #fff;
 }
 
 #services p {
-  /* color: rgba(255, 255, 255, 0.75); */
-  color: #000
+  color: rgba(255, 255, 255, 0.75);
 }
 
 #services .service-desc {
